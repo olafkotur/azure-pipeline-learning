@@ -10,5 +10,5 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: dotnet run
+- script: dotnet run --project "src/services/service-one"
   displayName: 'Run a .NET script'
